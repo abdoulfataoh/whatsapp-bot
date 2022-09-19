@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "whatsapp-bot"
+version = "0.1.0"
+description = ""
+authors = ["abdoulfataoh <abdoulfataoh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+requests = "^2.28.1"
+environs = "^9.5.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.5.0"
+mypy = "^0.971"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
